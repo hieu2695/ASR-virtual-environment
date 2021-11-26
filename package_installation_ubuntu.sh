@@ -22,7 +22,7 @@ pip3 install leveldb
 pip3 install seaborn
 pip3 install tensorflow-gpu
 pip3 install Theano
-H pip3 install keras
+pip3 install keras
 pip3 install -U scikit-learn
 pip3 install cython
 pip3 install opencv-python
