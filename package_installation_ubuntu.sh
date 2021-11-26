@@ -7,12 +7,14 @@ sudo apt-get install python3-gi-cairo
 sudo apt install build-essential libssl-dev libffi-dev python3-dev -y
 sudo apt-get install tcl-dev tk-dev python-tk python3-tk -y
 
+
 # install CUDA 11.3 (Stable)
+pip3 install --upgrade pip
+pip3 install -U setuptools
 pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 
 # install bacis python3 packages
 pip3 install Pillow
-pip3 install -U setuptools
 pip3 install numpy --upgrade
 pip3 install ipython
 pip3 install matplotlib
