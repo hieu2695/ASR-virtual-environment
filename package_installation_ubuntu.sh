@@ -46,6 +46,7 @@ pip3 install dataclasses
 pip3 install typing
 python3 -m spacy download en
 pip3 install torchtext
+pip3 install ipykernel
 
 # install Plotly
 pip3 install plotly
