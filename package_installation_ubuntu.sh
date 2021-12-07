@@ -45,7 +45,7 @@ pip3 install joblib
 pip3 install dataclasses
 pip3 install typing
 python3 -m spacy download en
-pip3 install torchtext
+pip3 install torchtext==0.8.1
 pip3 install ipykernel
 
 # install Plotly
