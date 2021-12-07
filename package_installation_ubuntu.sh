@@ -47,6 +47,7 @@ pip3 install typing
 python3 -m spacy download en
 pip3 install torchtext==0.8.1
 pip3 install ipykernel
+pip3 install ipywidgets
 
 # install Plotly
 pip3 install plotly
