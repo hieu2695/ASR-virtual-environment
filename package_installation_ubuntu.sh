@@ -11,7 +11,7 @@ sudo apt-get install tcl-dev tk-dev python-tk python3-tk -y
 # install CUDA 11.0
 pip3 install --upgrade pip
 pip3 install -U setuptools
-pip3 install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
 
 # install bacis python3 packages
 pip3 install Pillow
